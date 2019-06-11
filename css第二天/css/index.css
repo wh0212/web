@@ -1,0 +1,480 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+}
+#xiaomi_topBar
+{
+    width: 100%;
+    height:40px;
+    background:#333
+}
+#xiaomi_topBar_nav
+{
+    width: 1226px;
+    height: 40px;
+    margin:0 auto;
+}
+#xiaomi_topBar_nav_left
+{
+    width: 677px;
+    height: 40px;
+    float: left;
+}
+#xiaomi_topBar_nav_left ul li
+{
+    padding: 0px 6px;
+    float: left;
+    height: 15px;
+    text-align: center;
+    margin-top: 13px;
+    line-height: 10px;
+    border-right: 1px #424242 solid;
+}
+#xiaomi_topBar_nav_left ul li:nth-child(12)
+{
+    border:none;
+}
+#xiaomi_topBar_nav_left ul li a
+{
+    color: #B0B0B0;
+    font-size: 12px;
+}
+#xiaomi_topBar_nav_right
+{
+    width: 260px;
+    height: 40px;
+    float: right;
+}
+#xiaomi_topBar_nav_right ul li
+{
+    width: 40px;
+    float: left;
+    height: 15px;
+    text-align: center;
+    margin-top: 13px;
+    line-height: 10px;
+    border-right:1px #424242 solid;
+}
+#xiaomi_topBar_nav_right ul li:nth-child(3)
+{
+    border:none;
+    width: 60px;
+}
+#xiaomi_topBar_nav_right ul li a
+{
+    color: #B0B0B0;
+    font-size: 12px;
+}
+#xiaomi_topBar_nav_gwc
+{
+    width: 110px;
+    height: 40px;
+    background: #424242;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+}
+#xiaomi_topBar_nav_gwc a
+{
+    color:#B0B0B0;
+    font-size: 12px;
+}
+#xiaomi_header
+{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+#xiaomi_header_logo
+{
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+    float: left;
+}
+#xiaomi_header_nav
+{
+    width: 850px;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+}
+#xiaomi_header_nav ul
+{
+    margin-left: 150px;
+}
+#xiaomi_header_nav ul li
+{
+    padding: 0px 10px;
+    height: 18px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+#xiaomi_header_nav ul li a
+{
+    color: #000;
+}
+#xiaomi_header_nav ul li a:hover
+{
+    color: red;
+}
+#header-search
+{
+    width: 290px;
+    height: 50px;
+    float:right;
+    margin-top: 25px;
+}
+#search-text
+{
+    width: 234px;
+    height: 48px;
+    vertical-align: middle;
+    border:1px #e0e0e0 solid;
+}
+#search_btn
+{
+    width: 52px;
+    height: 50px;
+    border:none;
+    vertical-align: middle;
+    margin-left: -5px;
+    background: #fff;
+    border:1px #e0e0e0 solid;
+}
+ #content_home   /* 轮播图 */
+{
+    width: 1226px;
+    height: 460px;
+    background: yellow;
+    margin:0 auto;
+    background:url("../Source/image/banner.jpg");
+    background-size: 1226px 460px;
+}
+#content_home ul
+{
+    width: 234px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0px;
+}
+#content_home ul li
+{
+    width: 204px;
+    height: 42px;
+    padding-left: 30px;
+    line-height: 42px;
+
+}
+#content_home ul li a
+{
+    color: #fff;
+}
+#content_home ul li:hover
+{
+    background: #ff6700;
+}
+#content_home ul li a span
+{
+    float:right;
+    margin-right: 20px;
+    color: #b0b0b0;
+}
+#content_home_hero
+{
+    width: 1226px;
+    height: 170px;
+    margin:0 auto;
+    margin-top: 15px;
+}
+#content_home_hero_left
+{
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+    float: left;
+}
+#content_home_hero_left_tu
+{
+    width: 24px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 25px;
+    background: url(../Source/image/aa.png);
+}
+#content_home_hero_left_tu2
+{
+    width: 24px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 25px;
+    background: url(../Source/image/aa.png);
+    background-position: 0px -45px;
+}
+#content_home_hero_left_tu3
+{
+    width: 24px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 25px;
+    background: url(../Source/image/aa.png);
+    background-position: 0px -87px;
+}
+#content_home_hero_left ul li
+{
+    width: 77px;
+    height: 82px;
+    border-right:1px #665E57 solid;
+    border-bottom: 1px #665E57 solid;
+    float: left;
+    text-align: center
+}
+#content_home_hero_left ul li a
+{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+#content_home_hero_right
+{
+    width: 978px;
+    height: 170px;
+    float:right;
+}
+#content_home_hero_right ul li
+{
+    width: 316px;
+    height: 170px;
+    float: left;
+    padding-left: 15px;
+}
+#content_home_hero_right ul li:nth-child(1)
+{
+    padding: 0px;
+}
+#content_home_hero_right ul li img
+{
+    width: 316px;
+    height: 170px;
+}
+#content_home_hero_banner
+{
+    width: 1226px;
+    height: 120px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+#content_home_hero_banner img
+{
+    width: 1226px;
+    height: 120px;
+}
+#content_goods
+{
+    width: 100%;
+    height: 1200px;
+    background:#F5F5F5;
+    margin-top: 40px;
+    position: absolute;
+}
+#content_goods_phone
+{
+    width: 1226px;
+    height: 686px;
+    margin:0 auto;
+    margin-top: 20px;
+    position: relative;
+    
+}
+#content_goods_phone_box
+{
+    width: 1226px;
+    height: 58px;
+}
+#content_goods_phone_box h2
+{
+    line-height: 58px;
+    font-size: 22px;
+    font-weight: 200;
+    float: left;
+}
+#content_goods_phone_box_ck
+{
+    width: 92px;
+    height: 58px;
+    float: right;
+    line-height: 58px;
+    float: right;
+}
+#content_goods_phone_box_ck p span
+{
+    width: 20px;
+    height: 20px;
+    background: #999;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 100px;
+}
+#content_goods_phone_box_bd
+{
+    width: 1226px;
+    height: 614px;
+}
+#content_goods_phone_box_bd_left
+{
+    width: 234px;
+    height: 614px;
+    float: left;
+    background: chocolate;
+}
+#content_goods_phone_box_bd_left img
+{
+    width: 234px;
+    height: 614px;
+}
+#content_goods_phone_box_bd_right
+{
+    width: 992px;
+    height: 614px;
+    float: right;
+}
+#content_goods_phone_box_bd_right ul li
+{
+    width: 234px;
+    height: 300px;
+    background:#fff;
+    float: left;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+#content_goods_phone_box_bd_right ul li:nth-child(1)
+{
+    margin-top:0px;
+}
+#content_goods_phone_box_bd_right ul li:nth-child(2)
+{
+    margin-top:0px;
+}
+#content_goods_phone_box_bd_right ul li:nth-child(3)
+{
+    margin-top:0px;
+}
+#content_goods_phone_box_bd_right ul li:nth-child(4)
+{
+    margin-top:0px;
+}
+#phone_box_bd_right_xp
+{
+    width: 64px;
+    height: 20px;
+    background:#83c44e;
+    margin:0 auto;
+    text-align: center;
+    line-height: 18px
+}
+#phone_box_bd_right_xp a
+{
+    color: #fff;
+    font-size: 12px;
+    
+}
+#phone_box_bd_right_img
+{
+    width: 160px;
+    height: 160px;
+    margin:0 auto;
+}
+#phone_box_bd_right_img img
+{
+    width: 160px;
+    height: 160px;
+}
+#content_goods_phone_box_bd_right ul li h3
+{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+#content_goods_phone_box_bd_right ul li p
+{
+    font-size: 12px;
+    /* margin-top: 5px; */
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #B0B0B0;
+}
+#phone_box_bd_right_jiage
+{
+    height: 40px;
+    line-height: 40px;
+}
+#phone_box_bd_right_gn
+{
+    height: 25px;
+    line-height: 25px;
+}
+#phone_box_bd_right_jiage span
+{
+    color: red;
+    font-size: 16px;
+}
+#content_goods_phone_rash /***敬我们无比热爱的生活***/
+{
+    width: 1226px;
+    height: 120px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+#content_goods_phone_rash img
+{
+    width: 1226px;
+    height: 120px;
+}
+#content_bar
+{
+    width: 84px;
+    height: 460px;
+    background:#fff;
+    position: fixed;
+    bottom: 70px;
+    right: 0;
+}
+#content_bar ul li
+{
+    width: 82px;
+    height: 90px;
+    border:1px #f5f5f5 solid;
+}
+#content_bar_img
+{
+    width: 30px;
+    height: 30px;
+    margin:0 auto;
+    margin-top: 15px;
+    background: url(../Source/image/bal.png) no-repeat;
+    background-size: 30px 30px;
+}
+#content_bar ul li:hover div
+{
+    color: red;
+}
+#content_bar ul li:hover p
+{
+    width: 30px;
+    height: 30px;
+    background: url(../Source/image/bal_1.png) no-repeat;
+    background-size: 30px 30px;
+    color: red;
+}
+#content_bar_js
+{
+    text-align: center;
+    margin-top: 10px;
+    color: #757575;
+}
