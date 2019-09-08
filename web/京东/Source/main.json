@@ -1,0 +1,53 @@
+[
+    {
+        "img":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/a2c208410ae84d1f.jpg!q70.jpg",
+        "jingpin":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/%E7%B2%BE%E5%93%81.png",
+        "name":"Apple iPhone XR",
+        "one":"无线充电",
+        "two":"面容",
+        "san":"双卡双待",
+        "si":"6.1英寸",
+        "wu":"128GB",
+        "liu":"黑色",
+        "jige":"￥5199.00",
+        "zeng":"赠"
+    },
+    {
+        "img":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/59b85824N836bb714.jpg!q70.dpg.webp",
+        "jingpin":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/%E7%B2%BE%E5%93%81.png",
+        "name":"Apple iPhone7",
+        "one":"A10芯",
+        "two":"ios系统",
+        "san":"指纹识别",
+        "si":"4.7英寸",
+        "wu":"--",
+        "liu":"黑色",
+        "jige":"￥2199.00",
+        "zeng":"赠"
+    },
+    {
+        "img":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/34ac75cc458efc46.jpg!q70.jpg",
+        "jingpin":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/%E7%B2%BE%E5%93%81.png",
+        "name":"Apple iPhone7",
+        "one":"A10芯",
+        "two":"ios系统",
+        "san":"指纹识别",
+        "si":"4.7英寸",
+        "wu":"--",
+        "liu":"黑色",
+        "jige":"￥2199.00",
+        "zeng":"赠"
+    },{
+        "img":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/819dcf182d743897.jpg!q70.dpg.webp",
+        "jingpin":"http://localhost/test/%E4%BA%AC%E4%B8%9C/Source/%E4%BA%AC%E4%B8%9C/%E7%B2%BE%E5%93%81.png",
+        "name":"Apple iPhone7",
+        "one":"A10芯",
+        "two":"ios系统",
+        "san":"指纹识别",
+        "si":"4.7英寸",
+        "wu":"--",
+        "liu":"黑色",
+        "jige":"￥2199.00",
+        "zeng":"赠"
+    }
+]
