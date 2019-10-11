@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+table{
+    margin: 20px auto;
+    text-align: center
+}
+
+button{
+    width: 60px;
+    height: 35px;
+    border:none;
+    margin-top: 20px
+}
+.btnDel{
+    width: 60px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
