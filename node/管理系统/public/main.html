@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="package/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet/mainxi.css">
+    <script src="package/jquery.js"></script>
+    <script src="package/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <label for="name">搜索</label>
+            <input type="text" id="way" style="width: 300px" class="form-control" placeholder="输入">
+        </div>
+        <button type="submit" id="grabble"  class="btn btn-default hqyzm">搜索</button><br><br>
+        <div id="cont" style="display: flex">
+            <div class="form-group">
+            <label for="name">姓名</label>
+            <input type="text" id="name" style="width: 200px;margin-right:10px" class="form-control" placeholder="输入名字">
+        </div>
+        <div class="form-group">
+            <label for="name">年龄</label>
+            <input type="text" id="age" style="width: 200px;margin-right:10px" class="form-control" placeholder="年龄输入">
+        </div>
+        <div class="form-group">
+            <label for="name">性别</label>
+            <input type="text" id="sex" style="width: 200px;margin-right:10px" class="form-control" placeholder="性别输入">
+        </div>
+        <div class="form-group">
+            <label for="name">联系方式</label>
+            <input type="text" id="phone" style="width: 200px;margin-right:10px" class="form-control" placeholder="联系输入">
+        </div>
+        <div class="form-group">
+            <label for="name">学制</label>
+            <input type="text" id="system" style="width: 200px;margin-right:10px" class="form-control" placeholder="联系输入">
+        </div>
+        <div class="form-group">
+            <label for="name">备注</label>
+            <input type="text" id="remark" style="width: 200px;margin-right:10px" class="form-control" placeholder="联系输入">
+        </div>
+        </div>
+        <button type="submit" id="add"  class="btn btn-default hqyzm">新增</button><br><br>
+    </div>
+    <table id="table" class="table table-condensed table-striped">
+        <caption style="text-align: center;font-size:30px">学生信息</caption>
+        <thead>
+          <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>联系方式</th>
+            <th>学制</th>
+            <th>备注信息</th>
+            <th>操作</th>
+        </thead>
+        <tbody id="tobody">
+        
+        </tbody>
+    </table>
+</body>
+<script src="js/mainxi.js"></script>
+</html>

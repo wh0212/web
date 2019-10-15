@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="package/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet/login.css">
+    <script src="package/jquery.js"></script>
+    <script src="package/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <label for="name">手机号</label>
+            <input type="text" id="phone" class="form-control" placeholder="输入手机号">
+        </div>
+        
+        <div class="form-group">
+            <label for="name">验证码</label>
+            <input type="text" id="yzm" class="form-control" placeholder="验证码输入">
+        </div>
+        <div class="form-group">
+            <label for="name">密码</label>
+            <input type="text" id="pass" class="form-control" placeholder="密码输入" disabled="disabled">
+        </div>
+        <button type="submit" class="btn btn-default hqyzm">获取验证码</button>
+        <button type="submit" class="btn btn-default login">登录</button>
+    </div>
+</body>
+<script src="js/login.js"></script>
+</html>
