@@ -25,7 +25,6 @@ var User = mongoose.model("User",status);
 var Student = mongoose.model("Student",studentS);
 
 function Dbase(){
-    this.pathname ="";
     this.connect = function(callbaack){
         mongoose.connect(url);
         var db = mongoose.connection;
@@ -98,14 +97,22 @@ function Dbase(){
     }
     this.grabble = function(parms,chk){
         this.connect((db)=>{
-            User.find(parms,(err,data)=>{
+            Student.find(parms,(err,data)=>{
                 if (!err) {
                     console.log(data);
-                    var jso = {
-                        zt:"查询成功",
-                        code:data
+                    if (data !=0) {
+                        var jso = {
+                            zt:"查询成功",
+                            code:data
+                        }
+                        chk(jso);
+                    }else{
+                        var jso = {
+                            zt:"没有该数据",
+                            code:""
+                        }
+                        chk(jso);
                     }
-                    chk(jso);
                     db.close();
                 }
             })
@@ -127,6 +134,7 @@ function Dbase(){
                     if (data != 0) {
                         var jso = {
                             zt:"数据库已有该数据",
+                            code:""
                         }
                         chk(jso);
                         return;

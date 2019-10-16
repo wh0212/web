@@ -1,13 +1,11 @@
 const express = require("express");
-const uitt = require("./uitt");
-// const reg = require("./register");
 var Dbase = require("./dbase");
 var studdbase = new Dbase();
 const router = express.Router();
 //搜索
 router.get('/grabble',(req,res)=>{
     console.log(req.query,'eee')
-    userdbase.grabble(req.query,(obj)=>{
+    studdbase.grabble(req.query,(obj)=>{
         res.send(obj)
     })
 })

@@ -38,7 +38,7 @@ dataj.forEach(element => {
 $("#grabble").click(function(){
     var shuju = $("#way").val();
     var json = {
-        phone:shuju
+        name:shuju
     }
     $.ajax({
         url:"http://127.0.0.1:8080/student/grabble",
@@ -46,9 +46,12 @@ $("#grabble").click(function(){
         type:"GET",
         dataType:"json",
         success:function(data){
-            console.log(data)
+            alert(data.zt);
             var dataj = data.code;
-            grabblefun(dataj)
+            if (dataj == "") {
+                return;
+            }
+            grabblefun(dataj);
         }
     })
 })
@@ -93,7 +96,7 @@ $(document).on('click','.dell',function(){
         success:function(data){
             console.log(data)
             alert(data.zt);
-            tr.remove()
+            tr.remove();
         }
     })
 })
@@ -152,6 +155,9 @@ $("#add").click(function(){
             console.log(data);
             alert(data.zt)
             var shuju = data.code;
+            if (shuju == "") {
+                return;
+            }
             addfun(shuju)
         }
     })

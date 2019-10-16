@@ -15,6 +15,9 @@ window.onload = function(){
     $(".active").click(function(){
         window.location.href = "./main.html"
     })
+    $("#cj").click(function(){
+        window.location.href = "./fine.html"
+    })
 
     $(".nav li").click(function(){
         var index = $(this).index();

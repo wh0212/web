@@ -3,7 +3,7 @@ $(".hqyzm").click(function(){
     var pagg = /^1[3456789]\d{9}$/;
     if (!(pagg.test(phone))) {
         alert("格式不正确");
-        return
+        return;
     }
     $.ajax({
         url:"http://127.0.0.1:8080/user/obtain",
