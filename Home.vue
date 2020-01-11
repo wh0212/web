@@ -30,17 +30,21 @@ export default {
     }
   },
   mounted() {
+    //初始化
     var scroll = new BScroll(".home", {
       scrollX: false,
       scrollY: true,
+      //下拉
       pullDownRefresh: {
         threshold: 40,
         stop: 0
       },
+      //上拉
       pullUpLoad:{
         threshold:-30
       }
     });
+    //判断
     scroll.on("scroll", por => {
       if (por.y > 30) {
         this.isPudown = true;
